@@ -58,22 +58,22 @@ export const RESUME_DATA = {
         <>
           <ul className="list-disc pl-5">
             <li>
-              Built a RAG based "Chat with Documents" AI web application,
-              enabling secure and efficient document storage, retrieval, and Q&A
-              functionality.
+              Built a RAG based &quot;Chat with Documents&quot; AI web
+              application, enabling secure and efficient document storage,
+              retrieval, and Q&A functionality.
             </li>
             <li>
               Developed WebAR projects for brand promotion and educational
               purposes using 8thWall and WebXR.
             </li>
             <li>
-              Created and launched "Gizmo," a 3D model viewer and editor
-              platform that enables developers to quickly evaluate model
+              Created and launched &quot;Gizmo,&quot; a 3D model viewer and
+              editor platform that enables developers to quickly evaluate model
               performance and rendering on mobile devices.
             </li>
             <li>
               Involved in the development of the Appearition Web SDK and created
-              samples to demonstrate the platform's capabilities.
+              samples to demonstrate the platform&apos;s capabilities.
             </li>
             <li>
               Led code reviews and refined software architecture to ensure
@@ -193,7 +193,7 @@ export const RESUME_DATA = {
       title: "Whisper NextJS Sample",
       techStack: ["Next.js", "TypeScript", "OpenAI", "Speech-to-Text"],
       description:
-        "Sample Next.js project showcasing real-time speech-to-text conversion using OpenAI’s Whisper API",
+        "Sample Next.js project showcasing real-time speech-to-text conversion using OpenAI&apos;s Whisper API",
       link: {
         label: "github.com/devhims/whisper-nextjs-sample",
         href: "https://github.com/devhims/whisper-nextjs-sample",
