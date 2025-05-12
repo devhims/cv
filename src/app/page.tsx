@@ -57,36 +57,38 @@ function getCommandMenuLinks() {
 
 export default function ResumePage() {
   return (
-    <main
-      className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-6 md:p-16"
-      id="main-content"
-    >
-      <div className="sr-only">
-        <h1>{RESUME_DATA.name}&apos;s Resume</h1>
-      </div>
-
-      <section
-        className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-2"
-        aria-label="Resume Content"
+    <div className="min-h-screen w-full md:bg-gray-50 md:py-16 md:dark:bg-gray-900">
+      <main
+        className="relative mx-auto w-full max-w-7xl overflow-auto p-4 print:p-6"
+        id="main-content"
       >
-        <Header />
-
-        <div className="space-y-8 print:space-y-2">
-          <Summary summary={RESUME_DATA.summary} />
-
-          <WorkExperience work={RESUME_DATA.work} />
-
-          <Education education={RESUME_DATA.education} />
-
-          <Skills skills={RESUME_DATA.skills} />
-
-          <Projects projects={RESUME_DATA.projects} />
+        <div className="sr-only">
+          <h1>{RESUME_DATA.name}&apos;s Resume</h1>
         </div>
-      </section>
 
-      <nav className="print:hidden" aria-label="Quick navigation">
-        <CommandMenu links={getCommandMenuLinks()} />
-      </nav>
-    </main>
+        <section
+          className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-2 print:p-0 print:shadow-none md:rounded-lg md:p-8 md:shadow-md md:dark:bg-gray-800"
+          aria-label="Resume Content"
+        >
+          <Header />
+
+          <div className="space-y-8 print:space-y-2">
+            <Summary summary={RESUME_DATA.summary} />
+
+            <WorkExperience work={RESUME_DATA.work} />
+
+            <Education education={RESUME_DATA.education} />
+
+            <Skills skills={RESUME_DATA.skills} />
+
+            <Projects projects={RESUME_DATA.projects} />
+          </div>
+        </section>
+
+        <nav className="print:hidden" aria-label="Quick navigation">
+          <CommandMenu links={getCommandMenuLinks()} />
+        </nav>
+      </main>
+    </div>
   );
 }

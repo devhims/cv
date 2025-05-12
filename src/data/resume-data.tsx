@@ -50,7 +50,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Immersive Realities",
-      badges: ["Remote", "React", "Next.js", "AI", "WebAR", "RAG", "3D"],
+      badges: ["Remote", "React", "Next.js", "AI", "WebAR", "RAG"],
       title: "Senior Software Engineer",
       start: "2021",
       end: "2024",

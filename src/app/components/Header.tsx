@@ -126,8 +126,8 @@ function PrintContact({ contact, personalWebsiteUrl }: PrintContactProps) {
  */
 export function Header() {
   return (
-    <header className="flex items-center justify-between">
-      <div className="flex-1 space-y-1.5">
+    <header className="flex items-center justify-between gap-4">
+      <div className="flex-1 space-y-1.5 pr-4">
         <h1 className="text-2xl font-bold" id="resume-name">
           {RESUME_DATA.name}
         </h1>
@@ -154,7 +154,7 @@ export function Header() {
         />
       </div>
 
-      <Avatar className="size-28" aria-hidden="true">
+      <Avatar className="size-28 flex-shrink-0" aria-hidden="true">
         <AvatarImage
           alt={`${RESUME_DATA.name}'s profile picture`}
           src={RESUME_DATA.avatarUrl}

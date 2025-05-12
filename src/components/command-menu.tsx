@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 
 import {
   CommandDialog,
@@ -37,6 +37,16 @@ export const CommandMenu = ({ links }: Props) => {
     return () => document.removeEventListener("keydown", down);
   }, []);
 
+  const handlePrint = useCallback(() => {
+    setOpen(false);
+    setTimeout(() => window.print(), 100);
+  }, []);
+
+  const handleLinkOpen = useCallback((url: string) => {
+    setOpen(false);
+    setTimeout(() => window.open(url, "_blank"), 100);
+  }, []);
+
   return (
     <>
       <p className="fixed bottom-0 left-0 right-0 hidden border-t border-t-muted bg-white p-1 text-center text-sm text-muted-foreground print:hidden xl:block">
@@ -59,26 +69,33 @@ export const CommandMenu = ({ links }: Props) => {
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
           <CommandGroup heading="Actions">
-            <CommandItem
-              onSelect={() => {
-                setOpen(false);
-                window.print();
-              }}
+            <div
+              role="button"
+              tabIndex={0}
+              onClick={handlePrint}
+              className="cursor-pointer"
             >
-              <span>Print</span>
-            </CommandItem>
+              <CommandItem onSelect={handlePrint} className="cursor-pointer">
+                <span>Print</span>
+              </CommandItem>
+            </div>
           </CommandGroup>
           <CommandGroup heading="Links">
             {links.map(({ url, title }) => (
-              <CommandItem
+              <div
                 key={url}
-                onSelect={() => {
-                  setOpen(false);
-                  window.open(url, "_blank");
-                }}
+                role="button"
+                tabIndex={0}
+                onClick={() => handleLinkOpen(url)}
+                className="cursor-pointer"
               >
-                <span>{title}</span>
-              </CommandItem>
+                <CommandItem
+                  onSelect={() => handleLinkOpen(url)}
+                  className="cursor-pointer"
+                >
+                  <span>{title}</span>
+                </CommandItem>
+              </div>
             ))}
           </CommandGroup>
           <CommandSeparator />

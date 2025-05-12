@@ -49,7 +49,7 @@ interface WorkPeriodProps {
 function WorkPeriod({ start, end }: WorkPeriodProps) {
   return (
     <div
-      className="text-sm tabular-nums text-gray-500 print:text-xs"
+      className="whitespace-nowrap text-sm tabular-nums text-gray-500 print:text-xs"
       aria-label={`Employment period: ${start} to ${end ?? "Present"}`}
     >
       {start} - {end ?? "Present"}
@@ -83,7 +83,7 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
     <Card className="py-1 print:mb-1 print:py-0">
       <CardHeader className="print:space-y-0.5 print:p-2">
         <div className="flex items-center justify-between gap-x-2 text-base">
-          <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none print:text-sm">
+          <h3 className="inline-flex items-center justify-center gap-x-1 whitespace-nowrap font-semibold leading-none print:text-sm">
             <CompanyName company={company} />
             <BadgeList
               className="hidden gap-x-1 sm:inline-flex"

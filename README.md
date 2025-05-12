@@ -6,11 +6,12 @@ Simple web app that renders minimalist CV with print-friendly layout.
 
 Built with Next.js and shadcn/ui, deployed on Vercel.
 
-This is a fork of [Bartosz Jarocki's CV project](https://github.com/BartoszJarocki/cv) with several enhancements.
+This project takes inspiration from [Bartosz Jarocki's CV](https://github.com/BartoszJarocki/cv) with several enhancements.
 
 # Enhancements
 
 - Upgraded to Next.js 15.3.1
+- Card effect with resume content for improved reading comfort
 - Improved print layout with optimized page breaks
 - Fixed hydration errors in the command menu component
 - Cleaned up unused logo images
