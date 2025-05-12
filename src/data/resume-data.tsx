@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   location: "Bengaluru, India",
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   about:
-    "Senior Full-Stack Engineer (Frontend-focused) delivering AI-powered web solutions with an emphasis on clean architecture and user experience.",
+    "Senior Full-Stack Engineer building AI-powered web solutions with an emphasis on clean architecture and user experience.",
   summary: (
     <>
       React / Next.js specialist with 6+ years of experience building
