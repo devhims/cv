@@ -1,25 +1,37 @@
-![cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
+![cv](https://service.firecrawl.dev/storage/v1/object/public/media/screenshot-d8a06405-9eb2-4863-9e4b-7a8942aeb470.png)
 
-# Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
+# Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdevhims%2Fcv)
 
 Simple web app that renders minimalist CV with print-friendly layout.
 
 Built with Next.js and shadcn/ui, deployed on Vercel.
 
+This is a fork of [Bartosz Jarocki's CV project](https://github.com/BartoszJarocki/cv) with several enhancements.
+
+# Enhancements
+
+- Upgraded to Next.js 15.3.1
+- Improved print layout with optimized page breaks
+- Fixed hydration errors in the command menu component
+- Cleaned up unused logo images
+- Enhanced mobile responsiveness
+- Improved accessibility features
+
 # Features
 
 - Setup only takes a few minutes [single config file](./src/data/resume-data.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/ui, TailwindCss
+- Built using Next.js 15.3.1, React, Typescript, Shadcn/ui, TailwindCss
 - Auto generated Layout
 - Responsive for different devices
 - Optimized for Next.js and Vercel
+- Print-friendly with proper page breaks
 
 # Getting Started Locally
 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/BartoszJarocki/cv.git
+   git clone https://github.com/devhims/cv.git
    ```
 
 2. Move to the cloned directory
@@ -42,25 +54,9 @@ Built with Next.js and shadcn/ui, deployed on Vercel.
 
 5. Open the [Config file](./src/data/resume-data.tsx) and make changes
 
-# Run with Docker
+# Credits
 
-Build the container
-
-```
-docker compose build
-```
-
-Run the container
-
-```
-docker compose up -d
-```
-
-Stop the Container
-
-```
-docker compose down 
-```
+[Bartosz Jarocki](https://github.com/BartoszJarocki/cv)
 
 # License
 
