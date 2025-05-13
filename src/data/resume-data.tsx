@@ -177,7 +177,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "YouTube Caption Extractor",
-      techStack: ["TypeScript", "Node.js", "npm package"],
+      techStack: ["TypeScript", "Node.js", "NPM package"],
       description:
         "A lightweight package to scrape and parse captions (subtitles) from YouTube videos, supporting both user-submitted and auto-generated captions with language options.",
       link: {
@@ -203,6 +203,36 @@ export const RESUME_DATA = {
       link: {
         label: "github.com/devhims/whisper-nextjs-sample",
         href: "https://github.com/devhims/whisper-nextjs-sample",
+      },
+    },
+    {
+      title: "Hono D1 Drizzle Template",
+      techStack: ["Hono.js", "Cloudflare D1", "Drizzle ORM", "Edge API"],
+      description:
+        "A modern template for building REST APIs using Hono.js, Cloudflare D1, and Drizzle ORM, providing a robust foundation for building scalable applications on Cloudflare's edge network.",
+      link: {
+        label: "github.com/devhims/hono-d1-drizzle",
+        href: "https://github.com/devhims/hono-d1-drizzle",
+      },
+    },
+    {
+      title: "React 8thWall A-Frame",
+      techStack: ["React", "WebAR", "8thWall", "A-Frame"],
+      description:
+        "A lightweight package to integrate 8th Wall WebAR capabilities into React applications, making it easier to create engaging WebAR experiences with simplified script management.",
+      link: {
+        label: "github.com/devhims/react-8thwall-aframe",
+        href: "https://github.com/devhims/react-8thwall-aframe",
+      },
+    },
+    {
+      title: "3D Web Editor",
+      techStack: ["Next.js", "Three.js", "React Three Fiber", "Chakra UI"],
+      description:
+        "A web-based 3D editor for viewing, optimizing, and sharing 3D models. Features include model optimization, performance metrics, and QR code generation for easy sharing.",
+      link: {
+        label: "github.com/devhims/3d-web-editor",
+        href: "https://github.com/devhims/3d-web-editor",
       },
     },
   ],
