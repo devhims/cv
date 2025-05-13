@@ -120,10 +120,16 @@ export const RESUME_DATA = {
           <ul className="list-disc pl-5">
             <li>
               Provided a platform for indie Unity developers and artists to
-              up-skill and get help from others in the field.
+              upskill, collaborate, and seek mentorship.
             </li>
-            <li>Hosted 8 events and maintained an active WhatsApp group.</li>
-            <li>Built and managed the community through Meetup platform.</li>
+            <li>
+              Organized 8 developer events and maintained long-term engagement
+              through the Meetup platform.
+            </li>
+            <li>
+              Curated event content and coordinated speakers, ensuring each
+              session delivered technical value to the community.
+            </li>
           </ul>
         </>
       ),
