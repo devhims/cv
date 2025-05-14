@@ -128,10 +128,10 @@ function PrintContact({ contact, personalWebsiteUrl }: PrintContactProps) {
       {contact.tel && (
         <>
           <span className="inline-flex items-center">
-            <WhatsAppIcon
+            {/* <WhatsAppIcon
               className="mr-1 size-3 translate-y-[-1px]"
               aria-hidden="true"
-            />
+            /> */}
             <a
               className="underline hover:text-foreground/70"
               href={`tel:${contact.tel}`}
