@@ -35,7 +35,7 @@ function ProjectLink({ title, link }: ProjectLinkProps) {
       >
         {title}
         <span
-          className="size-1 rounded-full bg-green-500"
+          className="size-1.5 rounded-full bg-green-500"
           aria-label="Active project indicator"
         />
       </a>

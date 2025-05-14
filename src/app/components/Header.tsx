@@ -150,8 +150,8 @@ function PrintContact({ contact, personalWebsiteUrl }: PrintContactProps) {
  */
 export function Header() {
   return (
-    <header className="flex items-center justify-between gap-4">
-      <div className="flex-1 space-y-1.5 pr-4">
+    <header className="flex items-center justify-center gap-4">
+      <div className="flex-1 space-y-1.5 pr-2">
         <h1 className="whitespace-nowrap text-2xl font-bold" id="resume-name">
           {RESUME_DATA.name}
         </h1>
