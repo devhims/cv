@@ -2,6 +2,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { RESUME_DATA } from "@/data/resume-data";
+import { WhatsAppIcon } from "@/components/icons";
 
 interface LocationLinkProps {
   location: typeof RESUME_DATA.location;
@@ -125,12 +126,20 @@ function PrintContact({ contact, personalWebsiteUrl }: PrintContactProps) {
         </>
       )}
       {contact.tel && (
-        <a
-          className="underline hover:text-foreground/70"
-          href={`tel:${contact.tel}`}
-        >
-          {contact.tel}
-        </a>
+        <>
+          <span className="inline-flex items-center">
+            <WhatsAppIcon
+              className="mr-1 size-3 translate-y-[-1px]"
+              aria-hidden="true"
+            />
+            <a
+              className="underline hover:text-foreground/70"
+              href={`tel:${contact.tel}`}
+            >
+              {contact.tel}
+            </a>
+          </span>
+        </>
       )}
     </div>
   );

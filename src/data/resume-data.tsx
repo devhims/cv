@@ -21,7 +21,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://www.devhims.com/",
   contact: {
     email: "contact@devhims.com",
-    tel: "+918587005433",
+    tel: "+60174177644",
     social: [
       {
         name: "GitHub",
