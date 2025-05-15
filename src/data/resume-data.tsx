@@ -168,12 +168,12 @@ export const RESUME_DATA = {
     "TypeScript",
     "Tailwind CSS",
     "Node.js",
-    "System Architecture",
-    "Remote Team Leadership",
     "Generative AI",
     "Postgres",
     "RAG",
     "Cloudflare Workers",
+    "System Architecture",
+    "Remote Team Leadership",
   ],
   projects: [
     {

@@ -12,11 +12,11 @@ This project takes inspiration from [Bartosz Jarocki's CV](https://github.com/Ba
 
 - Upgraded to Next.js 15.3.1
 - Card effect with resume content for improved reading comfort
+- Updated fonts to Geist Sans and Geist Mono
 - Improved print layout with optimized page breaks
 - Fixed hydration errors in the command menu component
 - Cleaned up unused logo images
 - Enhanced mobile responsiveness
-- Improved accessibility features
 
 # Features
 
