@@ -156,7 +156,7 @@ export function Header() {
           {RESUME_DATA.name}
         </h1>
         <p
-          className="max-w-md text-pretty font-mono text-sm leading-tight text-foreground/80 print:text-[12px]"
+          className="max-w-md text-pretty font-sans text-base font-medium leading-tight text-foreground/80 print:text-[12px]"
           aria-labelledby="resume-name"
         >
           {RESUME_DATA.about}

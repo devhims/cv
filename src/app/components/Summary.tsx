@@ -17,7 +17,7 @@ export function Summary({ summary, className }: AboutProps) {
         About
       </h2>
       <div
-        className="text-pretty font-mono text-[12px] text-foreground/80 print:text-[10px] print:leading-tight"
+        className="text-pretty font-sans text-sm font-medium text-muted-foreground print:text-[10px] print:leading-tight"
         aria-labelledby="about-section"
       >
         {summary}

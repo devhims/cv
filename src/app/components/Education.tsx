@@ -47,7 +47,7 @@ function EducationItem({ education }: EducationItemProps) {
         </div>
       </CardHeader>
       <CardContent
-        className="mt-2 text-xs text-foreground/80 print:mt-0.5 print:p-2 print:pt-1 print:text-[10px] print:leading-tight"
+        className="mt-2 text-xs text-muted-foreground print:mt-0.5 print:p-2 print:pt-1 print:text-[10px] print:leading-tight"
         aria-labelledby={`education-${school
           .toLowerCase()
           .replace(/\s+/g, "-")}`}

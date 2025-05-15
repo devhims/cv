@@ -57,7 +57,7 @@ export const RESUME_DATA = {
       end: "2024",
       description: (
         <>
-          <ul className="list-disc pl-5">
+          <ul className="space-y-1/2 list-disc pl-5">
             <li>
               Built a RAG based &quot;Chat with Documents&quot; AI web
               application, enabling secure and efficient document storage,
@@ -92,7 +92,7 @@ export const RESUME_DATA = {
       end: "2021",
       description: (
         <>
-          <ul className="list-disc pl-5">
+          <ul className="space-y-1/2 list-disc pl-5">
             <li>
               Developed an AR-based mobile app that understands space, offering
               a true-to-life experience for furniture visualization and interior
@@ -118,7 +118,7 @@ export const RESUME_DATA = {
       end: "2021",
       description: (
         <>
-          <ul className="list-disc pl-5">
+          <ul className="space-y-/2 list-disc pl-5">
             <li>
               Provided a platform for indie Unity developers and artists to
               upskill, collaborate, and seek mentorship.
@@ -137,13 +137,13 @@ export const RESUME_DATA = {
     },
     {
       company: "Udacity",
-      badges: ["Mentoring", "Code Review"],
+      badges: ["Mentorship", "Code Review"],
       title: "Mentor and Project Reviewer",
       start: "2016",
       end: "2019",
       description: (
         <>
-          <ul className="list-disc pl-5">
+          <ul className="space-y-1/2 list-disc pl-5">
             <li>
               Reviewed over 1500 student projects for Virtual Reality, Digital
               Marketing, and Android Basics programs with an average rating of

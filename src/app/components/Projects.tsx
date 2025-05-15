@@ -100,7 +100,7 @@ function ProjectCard({ title, description, tags, link }: ProjectCardProps) {
             <ProjectLink title={title} link={link} />
           </CardTitle>
           <CardDescription
-            className="text-pretty font-mono text-xs print:text-[9px] print:leading-tight"
+            className="font-sans text-[13px] font-medium leading-normal text-muted-foreground print:text-[9px] print:leading-tight"
             aria-label="Project description"
           >
             {description}
@@ -128,7 +128,7 @@ export function Projects({ projects }: ProjectsProps) {
         Side projects
       </h2>
       <div
-        className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3"
+        className="-mx-3 grid grid-cols-1 gap-3 px-2 print:grid-cols-3 print:gap-2 sm:px-0 md:grid-cols-2 lg:grid-cols-3"
         role="feed"
         aria-labelledby="side-projects"
       >

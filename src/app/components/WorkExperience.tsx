@@ -99,12 +99,12 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
       </CardHeader>
 
       <CardContent className="print:p-2 print:pt-0">
-        <div className="mt-2 text-pretty text-[12px] text-foreground/80 print:mt-0.5 print:text-[10px] print:leading-tight">
+        <div className="mt-2 text-pretty text-[13px] text-muted-foreground print:mt-0.5 print:text-[10px] print:leading-tight">
           {description}
         </div>
-        <div className="mt-2 print:mt-1">
+        <div className="mt-2 flex justify-center print:mt-1">
           <BadgeList
-            className="-mx-2 flex-wrap gap-1 sm:hidden"
+            className="flex-wrap justify-center gap-1 sm:hidden"
             badges={badges}
           />
         </div>
