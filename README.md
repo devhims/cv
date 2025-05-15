@@ -1,4 +1,4 @@
-![cv](https://service.firecrawl.dev/storage/v1/object/public/media/screenshot-5ede697f-a7bb-4991-89da-523e29c8f899.png)
+![cv](https://service.firecrawl.dev/storage/v1/object/public/media/screenshot-2bbb3466-1687-4a8a-96d1-a4a3a39f6e2c.png)
 
 # Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdevhims%2Fcv)
 
