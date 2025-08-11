@@ -9,7 +9,7 @@ React / Next.js specialist with 6+ years of experience building production-grade
 export const RESUME_DATA = {
   name: "Himanshu Gupta",
   initials: "HG",
-  location: "Kuala Lumpur, Malaysia", // Kuala Lumpur, Malaysia // Bengaluru, India
+  location: "Bengaluru, India", // Kuala Lumpur, Malaysia // Bengaluru, India
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   about:
     "Senior Full-Stack Engineer building AI-powered solutions with an emphasis on clean architecture and user experience.",
@@ -30,7 +30,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://www.devhims.com/",
   contact: {
     email: "contact@devhims.com",
-    tel: "+60174177644", // +918587005433 // +60174177644
+    tel: "+918587005433", // +918587005433 // +60174177644
     social: [
       {
         name: "GitHub",
