@@ -1,27 +1,36 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
+{
+  /* <>
+React / Next.js specialist with 6+ years of experience building production-grade frontends, serverless APIs, and AI-powered features. Skilled in architecting scalable, low latency platforms on edge computing environments such as Cloudflare Workers, with expertise in browser automation, real-time data extraction, and secure API design. Experienced in delivering complete solutions from system architecture to product launch, while integrating generative AI into practical, high impact applications. Trusted technical architect and mentor with a calm, problem solving mindset, known for translating complex challenges into elegant and maintainable solutions.
+</> */
+}
+
 export const RESUME_DATA = {
   name: "Himanshu Gupta",
   initials: "HG",
-  location: "Bengaluru, India",
+  location: "Kuala Lumpur, Malaysia", // Kuala Lumpur, Malaysia // Bengaluru, India
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   about:
-    "Senior Full-Stack Engineer building AI-powered web solutions with an emphasis on clean architecture and user experience.",
+    "Senior Full-Stack Engineer building AI-powered solutions with an emphasis on clean architecture and user experience.",
   summary: (
     <>
       React / Next.js specialist with 6+ years of experience building
       production-grade frontends, serverless APIs, and AI-powered features.
-      Skilled in integrating generative AI APIs like OpenAI and Cloudflare
-      Workers AI into real-world applications. Trusted technical architect and
-      mentor with a calm, problem-solving mindset — known for translating
-      complex problems into understandable, practical solutions.
+      Skilled in architecting scalable, low latency platforms on edge computing
+      environments such as Cloudflare Workers, with expertise in browser
+      automation, real-time data extraction, and secure API design. Experienced
+      in delivering complete solutions from system architecture to product
+      launch. Trusted technical architect and mentor with a calm, problem
+      solving mindset, known for translating complex challenges into elegant and
+      maintainable solutions.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/17825870?v=4",
   personalWebsiteUrl: "https://www.devhims.com/",
   contact: {
     email: "contact@devhims.com",
-    tel: "+918587005433",
+    tel: "+60174177644", // +918587005433 // +60174177644
     social: [
       {
         name: "GitHub",
@@ -49,6 +58,40 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "WebLinq",
+      badges: ["Cloudflare", "AI", "Web Scraping", "Browser Automation"],
+      title: "Founder and Platform Engineer",
+      start: "2025",
+      end: "Present",
+      description: (
+        <>
+          <ul className="space-y-1/2 list-disc pl-5">
+            <li>
+              Created WebLinq, a Cloudflare workers based web scraping and
+              browser automation platform for real-time data access by
+              developers and AI systems.
+            </li>
+            <li>
+              Implemented intelligent browser session reuse via Durable Objects
+              for efficient session reuse and performance optimization.
+            </li>
+            <li>
+              Built a secure API key system with endpoints for search,
+              screenshots, HTML/Markdown/PDF extraction, and MCP integration.
+            </li>
+            <li>
+              Developed a Next.js dashboard and docs site for visual API
+              interaction and quick onboarding.
+            </li>
+            <li>
+              Oversaw the full product lifecycle from architecture to launch on
+              Product Hunt.
+            </li>
+          </ul>
+        </>
+      ),
+    },
     {
       company: "Immersive Realities",
       badges: ["Remote", "React", "Next.js", "AI", "WebAR", "RAG"],
@@ -177,6 +220,21 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "WebLinq",
+      techStack: [
+        "Cloudflare Workers",
+        "Next.js",
+        "Web Scraping",
+        "Browser Automation",
+      ],
+      description:
+        "High-performance web scraping and browser automation platform built on Cloudflare Workers. Features include intelligent browser session reuse, real-time data extraction, secure API key management, and a full API suite for search, screenshots, and content extraction.",
+      link: {
+        label: "weblinq.dev",
+        href: "https://github.com/devhims/weblinq",
+      },
+    },
+    {
       title: "YouTube Caption Extractor",
       techStack: ["TypeScript", "Node.js", "NPM package"],
       description:
@@ -186,6 +244,7 @@ export const RESUME_DATA = {
         href: "https://github.com/devhims/youtube-caption-extractor",
       },
     },
+
     {
       title: "Model Viewer React",
       techStack: ["React", "Three.js", "WebAR", "3D"],
@@ -206,16 +265,7 @@ export const RESUME_DATA = {
         href: "https://github.com/devhims/whisper-nextjs-sample",
       },
     },
-    {
-      title: "Hono D1 Drizzle Template",
-      techStack: ["Hono.js", "Cloudflare D1", "Drizzle ORM", "Edge API"],
-      description:
-        "A modern template for building REST APIs using Hono.js, Cloudflare D1, and Drizzle ORM, providing a robust foundation for building scalable applications on Cloudflare's edge network.",
-      link: {
-        label: "github.com/devhims/hono-d1-drizzle",
-        href: "https://github.com/devhims/hono-d1-drizzle",
-      },
-    },
+
     {
       title: "React 8thWall A-Frame",
       techStack: ["React", "WebAR", "8thWall", "A-Frame"],

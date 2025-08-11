@@ -125,7 +125,7 @@ export function Projects({ projects }: ProjectsProps) {
   return (
     <Section className="print-force-new-page scroll-mb-16 print:space-y-4">
       <h2 className="text-xl font-bold print:text-lg" id="side-projects">
-        Side projects
+        Key Projects
       </h2>
       <div
         className="-mx-3 grid grid-cols-1 gap-3 px-2 print:grid-cols-3 print:gap-2 sm:px-0 md:grid-cols-2 lg:grid-cols-3"

@@ -80,8 +80,8 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
   const { company, badges, title, start, end, description } = work;
 
   return (
-    <Card className="py-1 print:mb-1 print:py-0">
-      <CardHeader className="print:space-y-0.5 print:p-2">
+    <Card className="py-1 print:mb-0 print:py-0">
+      <CardHeader className="print:space-y-0 print:p-1">
         <div className="flex items-center justify-between gap-x-2 text-base">
           <h3 className="inline-flex items-center justify-center gap-x-1 whitespace-nowrap font-semibold leading-none print:text-sm">
             <CompanyName company={company} />
@@ -98,7 +98,7 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
         </h4>
       </CardHeader>
 
-      <CardContent className="print:p-2 print:pt-0">
+      <CardContent className="print:p-1 print:pt-0">
         <div className="mt-2 text-pretty text-[13px] text-muted-foreground print:mt-0.5 print:text-[10px] print:leading-tight">
           {description}
         </div>
@@ -128,7 +128,7 @@ export function WorkExperience({ work }: WorkExperienceProps) {
         Work Experience
       </h2>
       <div
-        className="space-y-2 print:space-y-1 sm:space-y-1"
+        className="space-y-2 print:space-y-0 sm:space-y-1"
         role="feed"
         aria-labelledby="work-experience"
       >
