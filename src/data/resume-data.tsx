@@ -15,15 +15,16 @@ export const RESUME_DATA = {
     "Senior Full-Stack Engineer building AI-powered solutions with an emphasis on clean architecture and user experience.",
   summary: (
     <>
-      React / Next.js specialist with 6+ years of experience building
-      production-grade frontends, serverless APIs, and AI-powered features.
-      Skilled in architecting scalable, low latency platforms on edge computing
-      environments such as Cloudflare Workers, with expertise in browser
-      automation, real-time data extraction, and secure API design. Experienced
-      in delivering complete solutions from system architecture to product
-      launch. Trusted technical architect and mentor with a calm, problem
-      solving mindset, known for translating complex challenges into elegant and
-      maintainable solutions.
+      I’m a full-stack engineer focused on the intersection of AI and web
+      systems. Over the past 8 years, I’ve worked across React, Next.js,
+      Node.js, TypeScript, and Cloudflare’s edge stack, designing and deploying
+      production-grade systems that blend frontend design with backend
+      scalability. My work often involves building retrieval and reasoning
+      pipelines (RAG), integrating LLMs and tools, and building agentic systems.
+      I built WebLinq, a distributed browser automation and data-extraction
+      platform that runs entirely on Cloudflare Workers and turns web into an
+      API layer. I care about clarity, performance, and reliability —
+      translating complex ideas into clean, maintainable systems that scale.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/17825870?v=4",
@@ -214,9 +215,11 @@ export const RESUME_DATA = {
     "Generative AI",
     "Postgres",
     "RAG",
-    "Cloudflare Workers",
+    "Agents",
+    "AI SDK",
+    "API Design",
+    "Cloudflare",
     "System Architecture",
-    "Remote Team Leadership",
   ],
   projects: [
     {
@@ -246,6 +249,28 @@ export const RESUME_DATA = {
     },
 
     {
+      title: "Mermaid Agent",
+      techStack: ["Next.js", "TypeScript", "OpenAI", "AI SDK", "Mermaid.js"],
+      description:
+        "A modern Mermaid diagram editor with agentic error fixing and export capabilities. Built for developers and designers who want real-time AI-assisted diagram creation, validation, and professional-grade exports.",
+      link: {
+        label: "github.com/devhims/mermaid-agent",
+        href: "https://github.com/devhims/mermaid-agent",
+      },
+    },
+
+    {
+      title: "OpenGPT",
+      techStack: ["OpenNext", "AI SDK", "Cloudflare Workers AI"],
+      description:
+        "Experiment with 50+ open-source AI models, including GPT-OSS, Leonardo, Llama, Qwen, Gemini, DeepSeek, and more. Features text-to-speech with multiple voices and real-time speech-to-text transcription.",
+      link: {
+        label: "github.com/devhims/opengpt",
+        href: "https://github.com/devhims/opengpt",
+      },
+    },
+
+    {
       title: "Model Viewer React",
       techStack: ["React", "Three.js", "WebAR", "3D"],
       description:
@@ -255,27 +280,7 @@ export const RESUME_DATA = {
         href: "https://github.com/devhims/model-viewer-react",
       },
     },
-    {
-      title: "Whisper NextJS Sample",
-      techStack: ["Next.js", "TypeScript", "OpenAI", "Speech-to-Text"],
-      description:
-        "Sample Next.js project showcasing real-time speech-to-text conversion using OpenAI&apos;s Whisper API",
-      link: {
-        label: "github.com/devhims/whisper-nextjs-sample",
-        href: "https://github.com/devhims/whisper-nextjs-sample",
-      },
-    },
 
-    {
-      title: "React 8thWall A-Frame",
-      techStack: ["React", "WebAR", "8thWall", "A-Frame"],
-      description:
-        "A lightweight package to integrate 8th Wall WebAR capabilities into React applications, making it easier to create engaging WebAR experiences with simplified script management.",
-      link: {
-        label: "github.com/devhims/react-8thwall-aframe",
-        href: "https://github.com/devhims/react-8thwall-aframe",
-      },
-    },
     {
       title: "3D Web Editor",
       techStack: ["Next.js", "Three.js", "React Three Fiber", "Chakra UI"],
