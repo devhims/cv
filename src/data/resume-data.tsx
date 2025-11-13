@@ -212,6 +212,8 @@ export const RESUME_DATA = {
     "TypeScript",
     "Tailwind CSS",
     "Node.js",
+    "WebRTC",
+    "WebSockets",
     "Generative AI",
     "Postgres",
     "RAG",
